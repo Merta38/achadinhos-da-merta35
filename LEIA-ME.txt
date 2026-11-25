@@ -1,40 +1,40 @@
-ACHADINHOS DA MERTA35 — COMO EDITAR
+ACHADINHOS DA MERTA35 — VERSÃO COM 50 ESPAÇOS
 
-O site já está montado, com visual responsivo, pesquisa, filtros, quatro categorias, páginas institucionais e 12 espaços de produtos.
+O site possui 50 espaços de produtos. Pesquisa, filtros e cards são gerados automaticamente.
 
-PARA TROCAR AS FOTOS:
-1. Coloque as fotos na pasta images.
-2. Use os nomes produto-01.jpg, produto-02.jpg ... produto-12.jpg.
-3. Se usar PNG ou WEBP, altere o nome do arquivo no campo imagem em produtos.js.
+FOTOS:
+Coloque na pasta images as fotos produto-01.jpg, produto-02.jpg ... produto-50.jpg.
+Se usar PNG ou WEBP, atualize o nome no campo imagem do produto em produtos.js.
 
-PARA TROCAR OS LINKS:
-1. Abra produtos.js em um editor de texto.
-2. Troque COLE-SEU-LINK-AQUI pelo seu link completo (começando com https://).
-3. O botão só fica ativo quando houver um link válido.
+LINKS E DADOS:
+Abra produtos.js em um editor de texto. Para cada produto, edite:
+- nome: nome real do produto
+- categoria: Tecnologia, Ferramentas, Casa ou Livros
+- descricao: texto curto
+- loja: Shopee, Amazon ou nome da loja parceira
+- imagem: caminho/nome da foto na pasta images
+- link: substitua COLE-SEU-LINK-AQUI pelo link completo começando com https://
 
-O arquivo produtos.js também permite alterar nome, categoria, loja e descrição, caso queira. Os 12 nomes atuais são exemplos genéricos.
+Não repita os números de id e preserve aspas e vírgulas.
+Os 50 nomes e links são exemplos editáveis, não são ofertas reais.
+O botão só abre quando houver um link https:// válido.
 
 ANTES DE PUBLICAR:
-- Substitua SEU-EMAIL-AQUI no index.html e o e-mail na política de privacidade.
-- Revise a Política de Privacidade conforme os recursos realmente usados.
-- Confira as regras atuais da Amazon, Shopee e de cada programa de afiliados.
-- Os links de exemplo ainda não funcionam até serem substituídos.
+Substitua SEU-EMAIL-AQUI no index.html e o e-mail na política de privacidade.
+Revise a Política de Privacidade e o Aviso de Afiliados conforme os programas e ferramentas que utilizar.
+Confira preços, disponibilidade e regras dos programas de afiliados.
 
-PUBLICAR NO CLOUDFLARE PAGES:
-1. Extraia este ZIP.
-2. Acesse https://dash.cloudflare.com/
-3. Workers & Pages > Create application > Pages > Direct Upload.
-4. Envie a pasta do projeto ou ZIP conforme a opção apresentada.
-5. Nome sugerido: achadinhosdamerta35 (se disponível).
-6. Faça o deploy. O endereço ficará como achadinhosdamerta35.pages.dev, se disponível.
+PUBLICAÇÃO:
+Extraia o ZIP e envie a pasta do projeto em Cloudflare Pages > Workers & Pages > Create application > Pages > Direct Upload.
+Nome sugerido: achadinhosdamerta35 (se disponível).
 
 ARQUIVOS:
-index.html: página inicial
-style.css: aparência e cores
-produtos.js: cadastro dos produtos e links/imagens
-script.js: pesquisa, filtros e cards
-aviso-de-afiliados.html: aviso de afiliados
-politica-de-privacidade.html: política de privacidade
-images/: fotos dos produtos
+index.html — página inicial
+style.css — aparência e responsividade
+produtos.js — 50 espaços editáveis
+script.js — pesquisa, filtros e cards
+aviso-de-afiliados.html — aviso de afiliados
+politica-de-privacidade.html — política de privacidade
+images/ — fotos dos produtos
 
-Não há carrinho, estoque nem checkout próprio: os botões levam o visitante à loja parceira.
+Não há carrinho, estoque nem checkout próprio: os botões levam à loja parceira.

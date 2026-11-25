@@ -1,1 +1,1 @@
-Coloque aqui as fotos produto-01.jpg até produto-50.jpg.\n
+Adicione aqui as imagens produto-01.jpg até produto-50.jpg, correspondentes aos registros em produtos.js.
